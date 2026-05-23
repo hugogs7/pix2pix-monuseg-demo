@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Checkpoints are hosted on Hugging Face
+*.pt
+*.pth
+*.ckpt
+*.onnx
+checkpoints/
+**/checkpoints/
+
+# Generated demo outputs
+outputs/
+outputs_*/
+demo/outputs/
+demo/outputs_*/
+**/outputs/
+**/outputs_*/
+
+# Keep empty output placeholders if present
+!outputs/.gitkeep
+!demo/outputs/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
